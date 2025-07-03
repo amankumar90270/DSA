@@ -1,4 +1,4 @@
-//********** Write a program to print reverse of giver numbers **********
+//********** Write a program to print reverse of given numbers **********
 
 package Loops.Number_Print;
 
