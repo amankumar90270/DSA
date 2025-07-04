@@ -5,11 +5,16 @@ import java.util.Scanner;
 
 public class Que_7 {
     public static void main(String[] args) {
+
+
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter last n number");
         int last_number = sc.nextInt();
-        for (int i = 1; i <= last_number; i += 2) {
-            System.out.println(i);
+
+        int a =1, d=2;
+        for (int i = 1; i <= last_number; i++) {
+            System.out.println(a);
+            a=a+d;
         }
     }
 }

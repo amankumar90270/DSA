@@ -1,4 +1,4 @@
-//********** Write a program to check if a number is prime or not **********
+//********** Write a program to check if a number is prime or Composite **********
 package Loops.Number_Print;
 
 import java.util.Scanner;
