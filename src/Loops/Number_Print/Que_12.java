@@ -11,6 +11,7 @@ public class Que_12 {
 
         while (n!=0){
             int last_digit =n%10;
+
             sum += last_digit;
             n/=10;
         }
