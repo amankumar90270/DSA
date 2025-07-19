@@ -1,26 +1,26 @@
-//********** Print the given Pattern 1  ***********
-//* * * *
-//* * *
-//* *
-//*
+//********** Print the given Pattern  ***********
+//A B C D E
+//A B C D
+//A B C
+//A B
+//A
 
 package Loops.Pattern;
 
 import java.util.Scanner;
 
-public class Que_10 {
+public class Que_13 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a Number");
         int n = sc.nextInt();
 
-        for(int i=1; i<=n; i++){
+        for (int i=1; i<=n; i++){
             for (int j=1; j<=n+1-i; j++){
-                System.out.print("* ");
+                System.out.print((char)(j+64)+" ");
             }
             System.out.println();
         }
 
     }
 }
-
