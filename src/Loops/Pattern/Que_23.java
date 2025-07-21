@@ -1,26 +1,28 @@
 //********** Print the given Pattern  ***********
-//1
-//2 3
-//4 5 6
-//7 8 9 10
-//11 12 13 14 15
+//        1
+//      1 2
+//    1 2 3
+//  1 2 3 4
+//1 2 3 4 5
+
 package Loops.Pattern;
 
 import java.util.Scanner;
 
-public class Que_17 {
+public class Que_23 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a Number");
-        int n = sc.nextInt();
-        int a=1;
-        for (int i=1; i<=n; i++){
+        int n= sc.nextInt();
+
+        for (int i=1; i<=n; i++){ //row
+            for (int j=1; j<=n-i; j++){//spaces
+                System.out.print("  ");
+            }
             for (int j=1; j<=i; j++){
-                System.out.print(a+" ");
-                a++;
+                System.out.print(j+" ");
             }
             System.out.println();
         }
-
     }
 }

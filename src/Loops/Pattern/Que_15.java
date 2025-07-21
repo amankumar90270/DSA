@@ -1,5 +1,5 @@
 //********** Print the given Pattern ***********
-// A A A A A
+//A A A A A
 //2 2 2 2
 //C C C
 //4 4

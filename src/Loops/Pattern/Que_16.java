@@ -1,4 +1,5 @@
-//********** Print the given Pattern 1 ***********
+//********** Print the given Pattern ***********
+//1
 //1 3
 //1 3 5
 //1 3 5 7
