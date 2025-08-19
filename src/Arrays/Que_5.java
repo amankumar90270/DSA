@@ -13,7 +13,7 @@ public class Que_5 {
         System.out.println("Enter size of Array");
         int n = sc.nextInt();
 
-        //output of Array
+        //Output of Array
         System.out.println("Enter Elements of Array");
         int []arr = new int[n];
         for (int i=0; i<n; i++){
