@@ -12,15 +12,16 @@ public class Que_11 {
 
         //input
         System.out.println("Enter Elements of Array");
-        int []arr = new int[n];
-        for (int i=0; i<n; i++){
+        int[] arr = new int[n];
+        for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
 
-        for (int i=0; i<n; i++){
-            if (arr[i]<=0){
+        for (int i = 0; i < n; i++) {
+            if (arr[i] <= 0) {
                 System.out.println("Negative Numbers:" + arr[i]);
-        }
+            }
 
+        }
     }
 }
