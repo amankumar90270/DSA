@@ -1,3 +1,5 @@
+//********** Write a program to reverse elements in an array  **********
+
 package Arrays;
 
 import java.util.Scanner;
@@ -15,7 +17,6 @@ public class Que_19 {
         for (int i=0; i<n; i++){
             arr[i]= sc.nextInt();
         }
-
 
         //Reverse of Array
         int i=0, j=n-1;
